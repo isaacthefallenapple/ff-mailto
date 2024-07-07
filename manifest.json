@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "mailto picker",
+  "version": "0.1",
+  "protocol_handlers": [
+    {
+      "protocol": "mailto",
+      "name": "be*******mo@gmail.com",
+      "uriTemplate": "https://mail.google.com/mail/u/1/?extsrc=mailto&url=%s"
+    },
+    {
+      "protocol": "mailto",
+      "name": "isaacthefallenapple@gmail.com",
+      "uriTemplate": "https://mail.google.com/mail/u/0/?extsrc=mailto&url=%s"
+    }
+  ]
+}
